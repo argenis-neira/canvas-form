@@ -1,0 +1,30 @@
+.container {
+  max-width: 700px;
+  background: #fff6ed;
+  margin: 10px auto;
+  padding: 5rem 20px;
+  border-radius: 8px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: black;
+}
+
+.image {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  border: solid 1px black;
+  border-radius: 25px;
+  margin: 20px 45px;
+}
+
+.custom-grid {
+  display: flex;
+  border-collapse: separate;
+  border-spacing: 8px; /* Ajusta el espacio entre las columnas según tus necesidades */
+}
+
+.custom-grid > [class*="col-"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd; /* Agrega un borde para simular las celdas de la tabla */
+}
